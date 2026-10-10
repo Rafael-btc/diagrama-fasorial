@@ -4,21 +4,26 @@ Projeto desenvolvido em Python para plotar e manipular diagramas fasoriais, com 
 
 A ideia é oferecer uma ferramenta visual simples para estudantes de Engenharia Elétrica explorarem fasores de tensão e corrente e compreenderem melhor suas defasagens angulares.
 
+O projeto foi desenvolvido por mim, com auxílio de ferramentas de inteligência artificial (IA), e está aberto a sugestões, adaptações e melhorias.
+
 ## 🚀 Como utilizar
 
 ### Opção 1 — Executável para Windows
 
-Baixe o arquivo `DiagramaFasorial.exe` na seção **Releases** ou nos arquivos disponibilizados neste repositório.
+Para facilitar o uso, o projeto está disponível em formato executável. Acesse a seção abaixo para baixar o programa:
 
-1. Baixe o executável.
-2. Execute o arquivo `DiagramaFasorial.exe`.
-3. Informe a quantidade de fasores de tensão e corrente.
-4. Preencha os nomes e os valores das partes real e imaginária.
-5. Clique em **Plotar / Atualizar animação** para visualizar o diagrama.
+**[📥 Baixar Diagrama Fasorial para Windows — Releases](https://github.com/Rafael-btc/diagrama-fasorial/releases)**
 
-**Não é necessário instalar o Python nem as bibliotecas do projeto para utilizar o executável.**
+Após baixar o arquivo `DiagramaFasorial.exe`:
 
-> O Windows pode exibir avisos de segurança por se tratar de um executável sem assinatura digital.
+1. Execute o arquivo.
+2. Informe a quantidade de fasores de tensão e corrente.
+3. Preencha os nomes e os valores das partes real e imaginária.
+4. Clique em **Plotar / Atualizar animação** para visualizar o diagrama.
+
+Não é necessário instalar o Python nem as bibliotecas do projeto para utilizar o executável.
+
+> **Aviso:** como o executável não possui assinatura digital, o Windows pode exibir alertas de segurança. Como o projeto ainda está em desenvolvimento, também podem existir erros. Se preferir, você pode analisar o código-fonte e gerar seu próprio executável.
 
 ### Opção 2 — Executar o código-fonte
 
@@ -37,6 +42,18 @@ python main.py
 ```
 
 O Tkinter geralmente já está incluído na instalação do Python para Windows.
+
+## 🖥️ Interface inicial
+
+A interface permite definir a quantidade de fasores e informar seus nomes e componentes real e imaginário.
+
+<img width="1135" alt="Tela inicial do Diagrama Fasorial" src="https://github.com/user-attachments/assets/5e54be7e-93bf-4c42-b450-b2b74ab7a4e5" />
+
+## 📊 Diagrama fasorial em execução
+
+O programa apresenta os fasores em um gráfico animado e exibe as defasagens angulares calculadas entre tensões e correntes.
+
+<img width="1917" alt="Diagrama fasorial com animação e defasagens angulares" src="https://github.com/user-attachments/assets/011e509c-a5ce-4a85-811d-f70b4768a056" />
 
 ## ⚙️ Funcionalidades
 
@@ -61,14 +78,10 @@ O projeto foi criado como uma ferramenta visual de apoio aos estudantes de Engen
 
 O código é relativamente simples e ainda pode ser aprimorado. Fiquem à vontade para estudar, adaptar, modificar e contribuir com sugestões de melhorias.
 
-## 📦 Executável
-
-O executável para Windows pode ser disponibilizado na seção **Releases** do GitHub, facilitando o acesso de quem deseja utilizar o programa sem configurar um ambiente Python.
-
 ## 📄 Licença
 
-Este projeto está licenciado sob a licença MIT.
+Este projeto está licenciado sob a licença [MIT](LICENSE).
+
+A licença permite utilizar, copiar, modificar e redistribuir o software, inclusive para fins comerciais, respeitando seus termos.
 
 Desenvolvido por mim, com auxílio de ferramentas de inteligência artificial (IA).
-
-Sinta-se à vontade para estudar, utilizar, modificar e contribuir com o projeto, respeitando os termos da licença.
